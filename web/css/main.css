@@ -87,3 +87,122 @@ a {
     width: 100px;
     margin-right: 20px!important
 }
+
+#ps-container {
+    height: 90px;
+}
+
+.data-p {
+    color:white;
+}
+
+
+.flags-text {
+    margin-top:0;
+    margin-bottom:0
+}
+
+.ta-style-inline {
+    margin-left: 15px;
+}
+
+
+.flags-top-container {
+    display:inline-block
+}
+
+.inside-class {
+    margin-left: 20px;
+    display: block;
+    margin-top: 2px;
+}
+
+.data-st {
+    margin-left: 20px; 
+    color: #ff5776;
+}
+
+.ta-style {
+    color: #ff5776';
+}
+
+.filer-controls-style {
+    height: 48px;
+}
+
+#data-ant {
+    margin-right: 25px;
+}
+
+.margin-pl {
+    margin-right: 20px;
+}
+
+#data-eq {
+    border-radius: 30px 0px 0px 30px;
+}
+
+#data-ims {
+    border-radius: 0px 30px 30px 0px
+}
+
+.hide-phone-style {
+    height: 48px
+}
+
+.radio-test {
+    margin: 0;
+}
+
+.container-data-style {
+    display: none;
+}
+
+#rt-container {
+    height: 110px;
+}
+
+.white-class {
+    color:white
+}
+
+.margin-style {
+    margin-top:0;
+}
+
+.af-style {
+    height: 100%;
+}
+
+#af-list {
+    text-align: center;
+}
+
+.tp-style {
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.ta-style {
+    margin-left: 15px;
+}
+
+.ms-style {
+    margin-left: 15px;
+}
+
+.m-style {
+    color: #ff5776;
+}
+
+.themes-style {
+    margin-top: 50px;
+}
+
+.users-float {
+    float: none;
+}
+
+.login-style {
+    height: 44px;
+}

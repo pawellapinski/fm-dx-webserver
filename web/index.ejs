@@ -76,12 +76,12 @@
                         </h2>
                         <h3 class="flex-center flags-text">
                             <span class="data-tp color-4">TP</span>
-                            <span  class="data-ta color-4 ta-style">TA</span>
+                            <span  class="data-ta color-4 ta-style-inline">TA</span>
                             <div class="flags-top-container">
                                 <span class="data-flag inside-flags"></span>
                             </div>
                             <span class="data-st"></span>
-                            <span class="data-ms ta-style"><span style="color: #ff5776">M</span><span class="text-gray">S</span></span>
+                            <span class="data-ms ta-style"><span>M</span><span class="text-gray">S</span></span>
                         </h3>
                     </div>
                 </div>
@@ -108,12 +108,12 @@
                 </div>
                 
                 <div class="flex-container flex-phone flex-phone-column">
-                    <div class="panel-33 no-bg filter-controls" style="height: 48px;">
+                    <div class="panel-33 no-bg filter-controls filer-controls-style">
                         <div class="flex-container flex-phone h-100">
-                            <div class="panel-75 no-bg h-100 m-0 hide-desktop m-right-20 button-play-mobile" style="margin-right: 20px;">
+                            <div class="panel-75 no-bg h-100 m-0 hide-desktop m-right-20 button-play-mobile margin-pl">
                                 <button class="playbutton" aria-label="Play/Stop Button"><i class="fa-solid fa-play"></i></button>
                             </div>
-                                <div class="panel-50 no-bg h-100 m-0 dropdown" id="data-ant" style="margin-right: 25px;">
+                                <div class="panel-50 no-bg h-100 m-0 dropdown" id="data-ant">
                                     <input type="text" placeholder="Ant A" readonly />
                                     <ul class="options">
                                         <li data-value="0" class="option">Ant A</li>
@@ -123,10 +123,10 @@
                                     </ul>
                                 </div>
                             <div class="panel-100 no-bg h-100 m-0 button-eq">
-                                <button id="data-eq" style="border-radius: 30px 0px 0px 30px;" aria-label="EQ / RF+ Filter"><span class="text-bold">EQ</span><br><span class="text-smaller">(RF+)</span></button>
+                                <button id="data-eq" aria-label="EQ / RF+ Filter"><span class="text-bold">EQ</span><br><span class="text-smaller">(RF+)</span></button>
                             </div>
                             <div class="panel-100 no-bg h-100 m-0 button-ims">
-                                <button id="data-ims" style="border-radius: 0px 30px 30px 0px;"  aria-label="iMS / IF+ Filter"><span class="text-bold">iMS</span><br><span class="text-smaller">(IF+)</span></button>
+                                <button id="data-ims"  aria-label="iMS / IF+ Filter"><span class="text-bold">iMS</span><br><span class="text-smaller">(IF+)</span></button>
                             </div>
                         </div>
                     </div>
@@ -137,24 +137,24 @@
                         <button id="freq-up" aria-label="Tune up by 100 KHz"><i class="fa-solid fa-chevron-right"></i></button>
                     </div>
                     
-                    <div class="panel-33 hide-phone" style="height: 48px;">
+                    <div class="panel-33 hide-phone hide-phone-style">
                         <input type="range" id="volumeSlider" min="0" max="1" step="0.01" value="1"  aria-label="Volume slider">
                     </div>
                 </div>
                 
                 <div class="flex-container">
-                    <div class="panel-75 hover-brighten" id="rt-container" style="height: 110px;">
-                        <h2 style="margin: 0;">RADIOTEXT</h2>
+                    <div class="panel-75 hover-brighten" id="rt-container">
+                        <h2 class="radio-text">RADIOTEXT</h2>
                         <div id="data-rt0"></div>
                         <div id="data-rt1"></div>
-                        <div id="data-container" style="display: none;"></div>
+                        <div id="data-container container-data-style"></div>
                     </div>
                     
                     <div class="panel-33">
                         <h2>
-                            <div style="color:white;"></div>
+                            <div class="white-class"></div>
                         </h2>
-                        <h3 style="margin-top:0;" class="flex-center">
+                        <h3 class="margin-style" class="flex-center">
                         </h3>
                     </div>
                 </div>
@@ -162,9 +162,9 @@
             </div>
 
             <div class="panel-10 bg-none">
-                <div class="panel-100" style="height: 100%;">
+                <div class="panel-100 af-style">
                     <h2>AF</h2>
-                    <div id="af-list" style="text-align: center;">
+                    <div id="af-list">
                         <ul>
 
                         </ul>
@@ -174,16 +174,16 @@
         </div>
         <div id="flags-container-phone" class="panel-33">
             <h2 class="show-phone">
-                <div class="data-pty" style="color:white;"></div>
+                <div class="data-pty white-class"></div>
             </h2>
-            <h3 style="margin-top:0;margin-bottom:0;" class="flex-center">
+            <h3 class="flex-center tp-style">
                 <span class="data-tp color-4">TP</span>
-                <span style="margin-left: 15px;" class="data-ta color-4">TA</span>
+                <span class="data-ta color-4 ta-style">TA</span>
                 <div style="display:inline-block">
                     <span style="margin-left: 20px;display: block;margin-top: 2px;" class="data-flag"></span>
                 </div>
                 <span class="data-st"></span>
-                <span style="margin-left: 15px;" class="data-ms"><span style="color: #ff5776">M</span><span class="text-gray">S</span></span>
+                <span class="data-ms ms-style"><span class="m-style">M</span><span class="text-gray">S</span></span>
             </h3>
         </div>
     </div>
@@ -196,7 +196,7 @@
             <span class="close" id="closeModal"><i class="fa-solid fa-xmark"></i></span>
             
             <div class="form-group">
-                <label for="themes" style="margin-top: 50px;"><i class="fa-solid fa-palette"></i> Theme:</label>
+                <label for="themes" class="themes-style"><i class="fa-solid fa-palette"></i> Theme:</label>
                 <div class="dropdown" id="theme-selector">
                     <input type="text" placeholder="Theme" readonly />
                     <ul class="options">
@@ -213,7 +213,7 @@
             </div>
 
             <div class="form-group">
-                <label for="signal" style="margin-top: 50px;"><i class="fa-solid fa-signal"></i> Signal units:</label>
+                <label for="signal" class="themes-style"><i class="fa-solid fa-signal"></i> Signal units:</label>
                 <div class="dropdown" id="signal-selector">
                     <input type="text" placeholder="Signal Units" readonly />
                     <ul class="options">
@@ -224,7 +224,7 @@
                 </div>
             </div>
 
-            <div class="form-group bottom-20" style="float: none;">
+            <div class="form-group bottom-20 users-float">
                 <label for="themes"><i class="fa-solid fa-user"></i> Users online:</label>
                 <span id="users-online" name="users-online">0</span>
             </div>
@@ -237,7 +237,7 @@
                 <form action="/login" method="post" id="login-form">
                   <label for="password">Password:</label>
                   <input type="password" id="password" name="password" required>
-                  <button type="submit" class="br-0 w-100" style="height: 44px">Login</button>
+                  <button type="submit" class="br-0 w-100 login-style">Login</button>
                 </form>
               <% } %>
               <div id="login-message"></div>
